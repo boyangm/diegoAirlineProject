@@ -55,10 +55,10 @@ flex-direction: column;
 .headeroptions{
     flex-basis: 33.33333%;
     border: 1px solid grey;
-    te
+
 }
 #formArea{
     width:100%;
     background-color: blue;
-    height:250px;
+    min-height:250px;
 }
