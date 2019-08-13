@@ -1,0 +1,16 @@
+#container{
+    width: 90%;
+    position: relative;
+    margin: auto;
+    padding:0;
+}
+#carouselExampleIndicators,
+.carousel-item,
+.carousel-inner,
+.active{
+    position: relative;
+    height: 75vh;
+}
+.size{
+    object-fit: contain !important;
+}
