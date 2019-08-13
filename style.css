@@ -14,3 +14,38 @@
 .size{
     object-fit: contain !important;
 }
+#formContainer{
+width: 90%;
+display: flex;
+flex-flow: row;
+margin: auto;
+
+}
+.col-md-6{
+    margin:0;
+}
+#formBox{
+width: 30%;
+
+position: relative;
+margin:0;
+padding:0;
+min-height: 300px;
+background-color: aqua;
+}
+form{
+    width: 85%;
+    margin: auto;
+}
+#formHeader{
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+   height: 100px;
+    background-color: aquamarine;
+
+}
+.headeroptions{
+    flex-basis: 33%;
+}
