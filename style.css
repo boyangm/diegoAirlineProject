@@ -63,12 +63,11 @@ flex-direction: column;
     background-color: #F3F3F3;
 
 }
-#passport{
+#formHeader :nth-child(2){
     border-right:1px solid lightgrey;
-}
-#comments{
     border-left:1px solid lightgrey;
 }
+
 #formArea{
     width:100%;
     background-color: white;
