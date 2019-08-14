@@ -37,10 +37,7 @@ formArea.innerHTML =`
             <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
             <label class="form-check-label" for="inlineCheckbox2">Female</label>
           </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
-            <label class="form-check-label" for="inlineCheckbox3">Non-Binary</label>
-          </div>
+          <br>
           <br>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>

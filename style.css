@@ -43,7 +43,7 @@ form{
 display: flex;
 width:70%;
 position:relative;
-border: 1px solid grey;
+border: 1px solid lightgrey;
 flex-direction: column;
 }
 #formHeader{
@@ -59,9 +59,15 @@ flex-direction: column;
 }
 .headeroptions{
     flex-basis: 33.33333%;
-    border: 0.5px solid grey;
+    /* border: 0.5px solid grey; */
     background-color: #F3F3F3;
 
+}
+#passport{
+    border-right:1px solid lightgrey;
+}
+#comments{
+    border-left:1px solid lightgrey;
 }
 #formArea{
     width:100%;
