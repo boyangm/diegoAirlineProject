@@ -41,6 +41,32 @@ formArea.innerHTML =`
 aboutYou.addEventListener('click', () =>{
 event.preventDefault();
 formArea.innerHTML ="";
+formArea.innerHTML =`
+<form >
+<label>Drinks:</label>
+<div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="inputGroupSelect01">Drink Choice</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+</div>
+<div class="form-group">
+    <label for="dietaryRestriction">Dietary Restriction</label>
+    <input type="text" class="form-control" id="dietaryRestriction" placeholder="Dietary Restriction">
+</div>
+
+<div class="form-group">
+    <label for="exampleInputPassword1">Cell Phone Number</label>
+    <input type="text" class="form-control" id="cellphoneNumber" name ="cellphoneNumber"placeholder="555-555-5555">
+</div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+</form>`;
 
 
 })
