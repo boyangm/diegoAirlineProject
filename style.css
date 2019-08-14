@@ -29,8 +29,8 @@ width: 30%;
 
 position: relative;
 margin:0;
-padding:0;
-min-height: 300px;
+padding:10px 0 10px;
+height: 450px;
 background-color: aqua;
 }
 form{
@@ -41,15 +41,17 @@ form{
 display: flex;
 width:70%;
 position:relative;
+border: 1px solid grey;
 flex-direction: column;
 }
 #formHeader{
     width: 100%;
     position: relative;
     display: flex;
+    text-align: center;
     flex-flow: row;
    height: 50px;
-    background-color: aquamarine;
+    background-color: white;
 
 }
 .headeroptions{
@@ -59,6 +61,7 @@ flex-direction: column;
 }
 #formArea{
     width:100%;
-    background-color: blue;
-    min-height:250px;
+    background-color: white;
+    padding: 10px 0 10px;
+    height:400px;
 }
