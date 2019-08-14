@@ -16,6 +16,8 @@
 }
 #formContainer{
 width: 90%;
+position: relative;
+    top: -150px;
 display: flex;
 flex-flow: row;
 margin: auto;
@@ -26,12 +28,12 @@ margin: auto;
 }
 #formBox{
 width: 30%;
-
+color: blue;
 position: relative;
 margin:0;
 padding:10px 0 10px;
 height: 450px;
-background-color: aqua;
+background:linear-gradient(360deg,#FCD116 10% , #FFFB64 100%);
 }
 form{
     width: 85%;
@@ -64,4 +66,6 @@ flex-direction: column;
     background-color: white;
     padding: 10px 0 10px;
     height:400px;
+}
+.headeroptions > a{
 }
