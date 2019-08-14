@@ -22,7 +22,7 @@ formArea.innerHTML =`
   <input type="password" class="form-control" id="passportNumber" name="passportNumber" placeholder="Passport Number">
 </div>
     <div class="form-group">
-      <label for="passportCountry">Passport Country</label>
+      <label for="passportCountry">Passport Country:</label>
       <input type="email" class="form-control" id="passportCountry" name="passportCountry" placeholder="Passport Country">
     </div>
     <div class="form-group">
@@ -64,12 +64,12 @@ formArea.innerHTML =`
         </select>
 </div>
 <div class="form-group">
-    <label for="dietaryRestriction">Dietary Restriction</label>
+    <label for="dietaryRestriction">Dietary Restriction:</label>
     <input type="text" class="form-control" id="dietaryRestriction" placeholder="Dietary Restriction">
 </div>
 
 <div class="form-group">
-    <label for="exampleInputPassword1">Cell Phone Number</label>
+    <label for="exampleInputPassword1">Cell Phone Number:</label>
     <input type="text" class="form-control" id="cellphoneNumber" name ="cellphoneNumber"placeholder="555-555-5555">
 </div>
 
