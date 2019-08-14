@@ -1,6 +1,7 @@
 var passport = document.getElementById('passport');
 var formArea = document.getElementById('formArea');
 var aboutYou = document.getElementById('aboutYou');
+var comments = document.getElementById('comments');
 
 passport.addEventListener('click', () =>{
 event.preventDefault();
@@ -69,4 +70,17 @@ formArea.innerHTML =`
 </form>`;
 
 
+})
+comments.addEventListener('click', () =>{
+    event.preventDefault();
+    formArea.innerHTML ="";
+    formArea.innerHTML =`
+    <form>
+    <div class="form-group">
+    <label for="notes">Leave Us a Comment!</label>
+    <textarea class="form-control" id="notes" name="notes" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </form>
+    `;
 })
