@@ -2,9 +2,18 @@ var passport = document.getElementById('passport');
 var formArea = document.getElementById('formArea');
 var aboutYou = document.getElementById('aboutYou');
 var comments = document.getElementById('comments');
+var headeroptions = document.getElementsByClassName('headeroptions');
 
+function tabby(num){
+ for(var i = 0 ; i< 3; i++){
+    headeroptions[i].classList.remove('activity');
+ }
+ headeroptions[num].classList.add('activity');
+
+}
 passport.addEventListener('click', () =>{
 event.preventDefault();
+tabby(0);
 formArea.innerHTML ="";
 formArea.innerHTML =` 
 <form>
@@ -41,6 +50,7 @@ formArea.innerHTML =`
 })
 aboutYou.addEventListener('click', () =>{
 event.preventDefault();
+tabby(1);
 formArea.innerHTML ="";
 formArea.innerHTML =`
 <form >
@@ -73,6 +83,7 @@ formArea.innerHTML =`
 })
 comments.addEventListener('click', () =>{
     event.preventDefault();
+    tabby(2);
     formArea.innerHTML ="";
     formArea.innerHTML =`
     <form>
@@ -84,3 +95,6 @@ comments.addEventListener('click', () =>{
     </form>
     `;
 })
+window.onload = function() {
+    tabby(0);
+} 
