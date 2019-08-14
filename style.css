@@ -1,3 +1,9 @@
+body{
+    width: 100%;
+    position:relative;
+    margin: 0;
+    padding: 0;
+}
 #container{
     width: 90%;
     position: relative;
@@ -84,4 +90,24 @@ flex-direction: column;
 .activity{
     border-bottom: none;
     background-color: white;
+}
+
+@media only screen and (max-width: 600px){
+    #formContainer{
+        top:-300px;
+    }
+    .headeroptions >a {
+        font-size: .75rem;
+    }
+    #grabber{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    #formContainer{
+        top:-300px;
+    }
+    .headeroptions >a {
+        font-size: 1rem;
+    }
 }
